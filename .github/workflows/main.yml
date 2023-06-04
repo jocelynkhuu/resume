@@ -22,7 +22,7 @@ jobs:
           theme: macchiato
           resume_filepath: resume.json
           # modifies the index.html in-place
-          output_filepath: index.html
+          output_filepath: docs/index.html
       - name: Commit published HTML
         id: commit
         run: |
