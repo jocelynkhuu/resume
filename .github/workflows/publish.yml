@@ -1,8 +1,12 @@
 name: Publish resume in JSONResume format as Github Page
- 
+
+# Controls when the action will run. 
 on:
   push:
     branches: [ master ]
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
 
 jobs:
   check_run:
@@ -19,7 +23,7 @@ jobs:
       - uses: kelvintaywl/action-jsonresume-export@v1
         name: Export resume as HTML
         with:
-          theme: macchiato
+          theme: standard-resume
           resume_filepath: resume.json
           # modifies the index.html in-place
           output_filepath: docs/index.html
@@ -39,5 +43,5 @@ jobs:
         uses: ad-m/github-push-action@master
         if: steps.commit.outputs.exit_code == 0
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          github_token: ${{ secrets.GH_TOKEN }}
           branch: ${{ github.ref }}
