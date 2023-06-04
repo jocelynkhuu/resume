@@ -1,0 +1,124 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+  "basics": {
+    "name": "Jocelyn Khuu",
+    "label": "Security Engineer",
+    "url": "https://jocelynkhuu.github.io",
+    "summary": "Hello! I'm Jocelyn. A Security Engineer focusing on enterprise security and IAM. Currently working remotely from New York.",
+    "profiles": [
+      {
+        "network": "globe",
+        "username": "jocelynkhuu.github.io",
+        "url": "https://jocelynkhuu.github.io"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "in/jocelynkhuu",
+        "url": "https://www.linkedin.com/in/jocelynkhuu"
+      },
+      {
+        "network": "Github",
+        "username": "jocelynkhuu",
+        "url": "https://github.com/jocelynkhuu"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Clover Network, Inc.",
+      "location": "Remote, NY",
+      "description": "Clover Network, Inc.",
+      "position": "Security Engineer",
+      "startDate": "2022-01-24",
+      "highlights": [
+        "Oversee patch management for endpoints, increasing user patching by 70%",
+        "Manage endpoint security for over 900 devices by hardening systems according to CIS benchmarks",
+        "Spearheaded deploying asset management system SnipeIT through Terraform and Puppet on GCP instances",
+        "Create Python scripts to automate OpenLDAP IAM tasks to query and modify user attributes",
+        "Configure SSO for applications through ForgeRock",
+        "Manage GCP IAM permissions in Terraform for developers",
+        "Monitor and respond to detections in Crowdstrike and manage sensor policies for fleet"
+      ]
+    },
+    {
+      "name": "Petal Card",
+      "location": "New York, NY",
+      "description": "Petal Card",
+      "position": "IT Support Specialist",
+      "startDate": "2021-06",
+      "endDate": "2022-01",
+      "highlights": [
+        "Lead IT as sole IT support for NY HQ and VA locations supporting over 150 systems",
+        "Administered Google Workspace, Okta, Slack, Zoom, Zendesk, JIRA, Confluence, and JAMF Pro",
+        "Increased user patching by over 40% by deploying DeprecationNotifier via JAMF and bash scripting to nudge users to complete security updates",
+        "Identified gaps in IT Security and worked cross-functionally to improve and implement new processes and policies and assisted with SOC2 compliance for endpoint and IT security",
+        "Completed Zendesk and Okta integration to enhance security with MFA after hours for over 50 users and worked with customer operations teams to ensure minimal impact"
+      ]
+    },
+    {
+      "name": "Facebook",
+      "location": "Menlo Park, CA",
+      "description": "Facebook",
+      "position": "Enterprise Support Tech",
+      "startDate": "2019-04",
+      "endDate": "2021-06",
+      "highlights": [
+        "Spearheaded deployment of Go2Chef to use Chef-Solo for off-corp Linux (Fedora) provisioning, enabling over 2,000 Fedora users to provision and bootstrap systems from home",
+        "Acted as escalation for configuration management and client security issues relating to Chef, MDM profiles, and 802.1x certificates by troubleshooting from stack traces and logs and tracking trending issues",
+        "Collaborated with Client Security and Internal Detection and Response Team (IDR) on malware removal and troubleshooting security software such as Santa (binary authorization), MDATP, Carbon Black, and Osquery",
+        "Developed Python tool for automated Chef upgrades on Linux systems by dynamically generating JSON config files, bootstrapping Chef with Go2Chef, and querying Chef’s Omnitruck API for metadata and package downloads"
+      ]
+    },
+    {
+      "name": "Stanford University",
+      "location": "Palo Alto, CA",
+      "description": "Stanford University",
+      "position": "Computing Support Analyst II",
+      "startDate": "2018-04",
+      "endDate": "2019-04",
+      "highlights": [
+        "Provided tier 2 desktop support for over 2,000 faculty and staff",
+        "Troubleshot endpoint management software (IBM BigFix) and security software (SCEP) for over 5,000 systems",
+        "Ensured all devices met HIPAA compliance requirements for encryption, backup, and device registration"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "University of California, Irvine",
+      "url": "https://www.ou.edu/",
+      "area": "Business Economics",
+      "studyType": "Bachelors"
+    } 
+  ],
+  "skills": [
+    {
+      "name": "Scripting",
+      "keywords": [
+        "Bash",
+        "Python"
+      ]
+    },
+    {
+      "name": "IAM",
+      "keywords": [
+        "Okta",
+        "ForgeRock",
+        "Google Workspace"
+      ]
+    },
+    {
+      "name": "Infra as Code",
+      "keywords": [
+        "Terraform",
+        "Puppet"
+      ]
+    }
+  ],
+  "meta": {
+    "canonical": "https://raw.githubusercontent.com/jsonresume/resume-schema/master/resume.json",
+    "theme": "macchiato",
+    "version": "v1.0.0",
+    "lastModified": "2017-12-24T15:53:00"
+  }
+}
