@@ -92,6 +92,14 @@
   ],
   "skills": [
     {
+      "name": "Certs",
+      "keywords": [
+        "CompTIA Security+",
+        "Jamf 400",
+        "Jamf 370"
+      ]
+    },
+    {
       "name": "Scripting",
       "keywords": [
         "Bash",
