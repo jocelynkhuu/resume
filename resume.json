@@ -35,9 +35,10 @@
         "Manage endpoint security for over 900 devices by hardening systems according to CIS benchmarks",
         "Spearheaded deploying asset management system SnipeIT through Terraform and Puppet on GCP instances",
         "Create Python scripts to automate OpenLDAP IAM tasks to query and modify user attributes",
-        "Configure SSO for applications through ForgeRock",
-        "Manage GCP IAM permissions in Terraform for developers",
-        "Monitor and respond to detections in Crowdstrike and manage sensor policies for fleet"
+        "Configure SSO for applications through ForgeRock and update configurations",
+        "Manage GCP IAM permissions in Terraform for developers and develop RBAC IAM policies",
+        "Monitor and respond to detections in Crowdstrike and Lacework and participate in on-call",
+        "Complete vendor security assessments for applications and work with GRC on audits"
       ]
     },
     {
