@@ -9,3 +9,4 @@ Use [Resumed](https://github.com/rbardini/resumed)
 - `resumed render -t jsonresume-theme-macchaito`
 - `cat resume.html | xclip`
   - copy to repo
+- Copy `resume.json` from `node_modules` to this repo for backup
