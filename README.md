@@ -6,7 +6,7 @@ Use [Resumed](https://github.com/rbardini/resumed)
 - `npm install resumed jsonresume-theme-macchiato`
 - `cd /path/to/node_modules/resumed/dist` (~/node_modules)
   - make sure `resume.json` is there as this is what you will edit to update
-- `resumed render -t jsonresume-theme-macchaito`
+- `resumed render -t jsonresume-theme-macchiato`
 - `cat resume.html | xclip`
   - copy to repo
   - `cat resume.html > ~/github/resume/index.html` 
