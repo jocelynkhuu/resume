@@ -4,7 +4,7 @@
     "name": "Jocelyn Khuu",
     "label": "Security Engineer",
     "url": "https://jocelynkhuu.github.io",
-    "summary": "Hello! I'm Jocelyn. A Security Engineer focusing on enterprise security and IAM. Currently working remotely from New York.",
+    "summary": "Hello! I'm Jocelyn. A Security Engineer focusing on enterprise security and IAM. Currently working remotely from California.",
     "profiles": [
       {
         "network": "globe",
@@ -26,19 +26,21 @@
   "work": [
     {
       "name": "Clover Network, Inc.",
-      "location": "Remote, NY",
+      "location": "Remote, CA",
       "description": "Clover Network, Inc.",
       "position": "Security Engineer",
       "startDate": "2022-01-24",
       "highlights": [
         "Oversee patch management for endpoints, increasing user patching by 70%",
         "Manage endpoint security for over 900 devices by hardening systems according to CIS benchmarks",
-        "Spearheaded deploying asset management system SnipeIT through Terraform and Puppet on GCP instances",
-        "Create Python scripts to automate OpenLDAP IAM tasks to query and modify user attributes",
-        "Configure SSO for applications through ForgeRock and update configurations",
+        "Lead deployment of the asset management system SnipeIT on GCP instances using Terraform and Puppet",
+        "Used Terraform to implement Britive, managing privileged Snowflake access and setting entitlement policies",
+        "Create Python scripts to automate OpenLDAP IAM tasks, reducing group creation time by 97%, from 1 minute to 2 seconds, saving IT significant time",
+        "Configure SSO for SaaS applications through ForgeRock",
         "Manage GCP IAM permissions in Terraform for developers and develop RBAC IAM policies",
-        "Monitor and respond to detections in Crowdstrike and Lacework and participate in on-call",
-        "Complete vendor security assessments for applications and work with GRC on audits"
+        "Monitor and respond to detections in Crowdstrike and Lacework and participate on on-call",
+        "Complete vendor security assessments for applications and work with GRC on audits",
+        "Respond to and investigate phishing email reports in Proofpoint TAP and Google Workspace admin tools"
       ]
     },
     {
