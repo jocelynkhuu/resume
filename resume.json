@@ -121,11 +121,15 @@
       ]
     },
     {
-      "name": "IAM",
+      "name": "Apps",
       "keywords": [
         "Okta",
         "ForgeRock",
-        "Google Workspace"
+        "Google Workspace",
+        "Crowdstrike",
+        "Jamf",
+        "Proofpoint",
+        "Tenable"
       ]
     },
     {
