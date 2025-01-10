@@ -92,8 +92,27 @@
       "endDate": "2019-04",
       "highlights": [
         "Provided tier 2 desktop support for over 2,000 faculty and staff",
+        "Imaged and deployed Windows 10 and MacOS systems and ensured HIPAA data security requirements were met",
         "Troubleshot endpoint management software (IBM BigFix) and security software (SCEP) for over 5,000 systems",
-        "Ensured all devices met HIPAA compliance requirements for encryption, backup, and device registration"
+        "Collaborated with InfoSec teams on isolating systems, VLAN migrations, and maintaining system compliance",
+        "Created and modified network database entries for systems and assigned IPs and changed VLANs for systems"
+      ]
+    },
+    {
+      "name": "Futurewei Technologies",
+      "location": "Santa Clara, CA",
+      "description": "Futurewei Technologies",
+      "position": "IT Helpdesk Engineer",
+      "startDate": "2017-04",
+      "endDate": "2018-04",
+      "highlights": [
+        "Provided front-line helpdesk support for multiple locations including over 800 local and remote users ",
+        "Lead, created, and presented in weekly IT orientation and served as the point of contact for all new hires",
+        "Educated users on security policies through orientation and reported security incidents to management",
+        "Tracked and triaged tickets through Track-IT, resolving an average of 500 tickets per month",
+        "Created and maintained images, configured user profiles, and deployed Windows 7, 10, and MacOS systems",
+        "Provisioned Avaya VoIP phones by updating VLAN settings and completing firmware updates",
+        "Configured and managed network patch panels, activating ethernet ports and ensuring proper connectivity between switches and end-user devices"
       ]
     }
   ],
