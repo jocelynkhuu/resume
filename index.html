@@ -10,6 +10,8 @@
             text-align: left;
             margin: 20px;
             background-color: #f0f0f0; 
+            color: #000;
+            transition: background-color 0.3s, color 0.3s;
         }
         iframe {
             width: 100%;
@@ -29,12 +31,46 @@
         .home-link:hover {
             background-color: #505050;
         }
+        .theme-toggle {
+            cursor: pointer;
+            font-size: 24px;
+            margin-left: 10px;
+        }
+        .theme-container {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        .dark-mode {
+            background-color: #181818;
+            color: white;
+        }
     </style>
 </head>
 <body>
-    <a href="https://jocelynkhuu.github.io" class="home-link">← Back to Home 🏠</a>
+    <div class="theme-container">
+        <a href="https://pages.github.io" class="home-link">← Back to Home 🏠</a>
+        <span class="theme-toggle" onclick="setLightMode()">☀️</span>
+        <span class="theme-toggle" onclick="setDarkMode()">🌙</span>
+    </div>
 
-    <iframe src="https://docs.google.com/gview?url=https://jocelynkhuu.github.io/resume/resume.pdf&embedded=true"></iframe>
+    <iframe src="https://docs.google.com/gview?url=https://pages.github.io/resume/resume.pdf&embedded=true"></iframe>
 
+    <script>
+        function setLightMode() {
+            document.body.classList.remove("dark-mode");
+            localStorage.setItem("theme", "light");
+        }
+
+        function setDarkMode() {
+            document.body.classList.add("dark-mode");
+            localStorage.setItem("theme", "dark");
+        }
+
+        // Load theme from local storage
+        if (localStorage.getItem("theme") === "dark") {
+            setDarkMode();
+        }
+    </script>
 </body>
 </html>
