@@ -7,7 +7,10 @@
 
     <title>Resume · Jocelyn Khuu</title>
 
-    <!-- Match Hugo site CSS exactly -->
+    <meta name="description" content="Jocelyn Khuu · Resume" />
+    <link rel="canonical" href="https://jocelynkhuu.github.io/resume/" />
+
+    <!-- Match Hugo site CSS -->
     <link
       rel="stylesheet"
       href="https://khuuj.com/main.min.244183cde1a38e0b08f82c11791181288f9aac1cc9618cd6f4e9e7710c5768ba.css"
@@ -33,20 +36,15 @@
         box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
       }
       @media (max-width: 768px) {
-        iframe { height: 600px; }
+        iframe {
+          height: 600px;
+        }
       }
-      html[data-theme='dark'] iframe {
+      html[data-theme="dark"] iframe {
         background-color: #1a1a1a;
       }
       .post-title {
         margin-bottom: 1rem;
-      }
-      .resume-link {
-        text-align: center;
-        margin-top: 1rem;
-      }
-      .resume-link a {
-        text-decoration: none;
       }
     </style>
   </head>
@@ -57,7 +55,7 @@
         <span class="header__inner">
           <a href="https://khuuj.com/" style="text-decoration: none;">
             <div class="logo">
-              <span class="logo__mark">></span>
+              <span class="logo__mark">&gt;</span>
               <span class="logo__text">cd ~</span>
               <span class="logo__cursor"></span>
             </div>
@@ -99,7 +97,7 @@
         </span>
       </header>
 
-      <!-- CONTENT -->
+      <!-- Main content -->
       <div class="content">
         <main class="post">
           <article>
@@ -112,19 +110,15 @@
                   allowfullscreen
                 ></iframe>
               </p>
-              <div class="resume-link">
-                <a href="https://jocelynkhuu.github.io/resume/resume.pdf" target="_blank">🔗 Open PDF directly</a>
-              </div>
             </div>
           </article>
         </main>
       </div>
 
-      <!-- FOOTER -->
       <footer class="footer"></footer>
     </div>
 
-    <!-- Match Hugo’s JS bundle for theme toggle + menu -->
+    <!-- Hugo theme JS -->
     <script
       type="text/javascript"
       src="https://khuuj.com/bundle.min.e89fda0f29b95d33f6f4224dd9e5cf69d84aff3818be2b0d73e731689cc374261b016d17d46f8381962fb4a1577ba3017b1f23509d894f6e66431f988c00889e.js"
